@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
     return(
-        <div className="skils">
+        <div className="skills">
         
         <h2>This page shows the skills that I have.</h2><br />
         <p>Following is the list of tech skills that I know:</p><br />
