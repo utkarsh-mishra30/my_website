@@ -6,8 +6,8 @@ import React from "react";
 // import { ReactVideo } from "reactjs-media";
 const Randomvids = () => {
     return(
-        <div className="home">
-        <h2>This page shows Random videos</h2>
+        <div >
+        <h2  className="rv" >This page shows Random videos</h2>
         {/* <div className="container">
         <ReactVideo className="video" loop autoPlay height="200" width="200"
                     src={lightening}
@@ -35,16 +35,16 @@ const Randomvids = () => {
         </video> */}
         <div className="container">
            
-               <video loop autoPlay={true} muted height="300" width="500"  >
+               <video loop autoPlay={true} muted height="300" width="300"  >
                    <source src="lightening.mp4" type="video/mp4" />
                </video>
-               <video  autoPlay={true} loop muted height="300" width="500"    >
+               <video  autoPlay={true} loop muted height="300" width="300"    >
                    <source src="rain.mp4" type="video/mp4"/>
                </video>
-               <video  autoPlay={true} loop muted height="300" width="500"   >
+               <video  autoPlay={true} loop muted height="300" width="300"   >
                    <source src="snow.mp4" type="video/mp4" />
                </video>
-               <video loop autoPlay={true} muted height="300" width="500"  >
+               <video loop autoPlay={true} muted height="300" width="300"  >
                    <source src="sunny.mp4" type="video/mp4" />
                </video>
            

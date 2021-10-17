@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar2 from './components/Navbar2';
 import {  Route, Switch } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/Homepage';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       
-      <Navbar />
+      <Navbar2 />
       
       <Switch>
         <Route exact path="/" component={Homepage}  />
