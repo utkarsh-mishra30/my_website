@@ -30,7 +30,7 @@ body{
   justify-content: center;
   align-items: center;
   margin: auto;
-  
+  flex-direction: column;
   color: white;
 }.rv{
   display: flex;
@@ -41,13 +41,25 @@ body{
   
   color: white;
 }
+p{
+  text-align: center;
+}
 .skills{
   color: white;
-  display: flexbox;
-  margin-left: 40%;
-  
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 40%; */
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   
 }
+ul{
+  list-style: none;
+
+}
+
+
 
 @keyframes glow {
   from {
